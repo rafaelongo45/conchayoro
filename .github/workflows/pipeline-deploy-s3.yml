@@ -22,7 +22,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: build
-        path: frontend/.next/server/app
+        path: ./frontend/.next/server/app
 
   deploy:
     runs-on: ubuntu-latest
